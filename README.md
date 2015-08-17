@@ -1,7 +1,7 @@
 # FourSqaure API Module 
 A simple, promise based JS module for the FourSqaure API dependent on jQuery.
 
-## Allows you to easily get venue information, menus, and venue reviews.
+### Allows you to easily get venue information, menus, and venue reviews.
 
 #### Init the module first
 ```
@@ -11,7 +11,7 @@ Foursqaure.init({
 })
 ```
 
-### Get venue inforation
+#### Get venue inforation
 ```
 FourSqaure.getRestaurants({
         'near': '...',
@@ -22,7 +22,7 @@ FourSqaure.getRestaurants({
 });
 ```
 
-### Get the menu for a particular venue
+#### Get the menu for a particular venue
 ```
 FourSqaure.getRestaurantMenu(venueObject, {...queryParam...});
 ```
