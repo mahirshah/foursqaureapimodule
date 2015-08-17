@@ -16,7 +16,8 @@ Foursqaure.init({
 FourSqaure.getRestaurants({
         'near': '...',
         'limit': 50,
-        'categoryId': '...'
+        'categoryId': '...',
+        ...
 }).then(function(response) {
   ...
 });
@@ -24,10 +25,10 @@ FourSqaure.getRestaurants({
 
 #### Get the menu for a particular venue
 ```
-FourSqaure.getRestaurantMenu(venueObject, {...queryParam...});
+FourSqaure.getRestaurantMenu(venueObject, {...queryParams...});
 ```
 
 ### Get the reviews for a particular venue
 ```
-FourSqaure.getRestaurantReviews(venueObject, {...queryParam...});
+FourSqaure.getRestaurantReviews(venueObject, {...queryParams...});
 ```
