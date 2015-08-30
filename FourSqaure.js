@@ -2,6 +2,8 @@
  * The FourSquare API module
  */
 var FourSquare = (function (window, $, undefined) {
+    'use strict';
+    
     // the public returned object
     var FourSquare = {},
         _apiKeys = {
